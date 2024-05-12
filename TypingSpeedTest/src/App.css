@@ -1,0 +1,146 @@
+body{
+  background-color: #045071bd;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-app{
+  width: 600px;
+  height: 500px;
+  background-color: #f8e3cb;
+  margin: auto;
+  padding: 25px 25px;
+  border-radius: 10px;
+  color:black;
+  box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.516);
+}
+
+.counter-box{
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #45d26d;
+  background-color: #45d26d;
+  box-shadow: 1px 3px 1px 2px rgb(0, 0, 0);
+}
+
+.quote-text-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text{
+  margin: 40px;
+  width: 80%;
+  font-size: 1.4rem;
+  font-style: italic;
+  height: 70px;
+}
+
+p.instructions{
+  font-size: 1rem;
+  position: relative;
+  top: -30px;
+  opacity: .7;
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+.correct{
+  color: #45d26d;
+}
+
+.incorrect{
+  color: rgb(0, 0, 0);
+}
+
+.text-area{
+  width: 80%;
+  height: 100px;
+  resize: none;
+  border-radius: 5px;
+  margin-top: 1.2rem;
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 4px 5px 1px 2px rgba(0, 0, 0, 0.292);
+}
+
+.text-area:focus{
+  box-shadow: 5px 6px 1px 2px rgb(0, 0, 0);
+}
+
+.quote-text-section-btns{
+  display: flex;
+  gap: 15px;
+  margin-top: 1.5rem;
+}
+
+.btn{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #4e3150;
+  font-size: .9rem;
+  background-color: #dbdbda;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 1px 3px 1px 2px rgb(0, 0, 0);
+}
+
+.btn.btn-start-test{
+  font-size: 2rem;
+  padding: 5px;
+  width: 150px;
+}
+.btn.btn-start-test:hover{
+  background-color: #45d26d;
+  color: black;
+  transition: .2s ease;
+}
+
+.btn.btns-stop-test{
+  width: 100px;
+  padding: 5px;
+  font-size: 1.1rem;
+}
+.btn.btns-stop-test:hover{
+  background-color: #45d26d;
+}
+
+.results-section{
+  margin-top: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-section.show{
+  display: flex;
+}
+
+.results-section.hide{
+  display: none;
+}
+
+
+.results-deploy-box{
+  width: 100%;
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: space-around;
+}
